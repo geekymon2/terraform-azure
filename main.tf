@@ -13,6 +13,14 @@ terraform {
 provider "azurerm" {
   features {}
 
-  subscription_id = "00000000-0000-0000-0000-000000000000"
-  tenant_id       = "1a8baaf8-8855-40d4-9585-ae6328c54068"
+  subscription_id = ""
+  tenant_id       = ""
+}
+
+resource "azurerm_resource_group" "geekymon2" {
+  name     = "geekymon2"
+  location = "Australia East"
+  tags = {
+    environment = "dev"
+  }
 }
