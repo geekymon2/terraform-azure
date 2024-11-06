@@ -17,8 +17,8 @@ provider "azurerm" {
   tenant_id       = ""
 }
 
-resource "azurerm_resource_group" "geekymon2" {
-  name     = "geekymon2"
+resource "azurerm_resource_group" "geekymon2-dev" {
+  name     = "geekymon2-dev"
   location = "Australia East"
   tags = {
     environment = "dev"
