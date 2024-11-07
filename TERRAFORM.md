@@ -8,20 +8,36 @@
 
 ### Terraform init
 
-`terraform init` - Prepare your working directory for other commands
+`terraform init` - `tfin` Prepare your working directory for other commands
+
+### Terraform format
+
+`terraform format` - `tff` Format the configuration files
 
 ### Terraform validate
 
-`terraform validate` - Check whether the configuration is valid
+`terraform validate` - `tfv` Check whether the configuration is valid
 
 ### Terraform plan
 
-`terraform plan` Show changes required by the current configuration
+`terraform plan` - `tfp` Show changes required by the current configuration
 
 ### Terraform apply
 
-`terraform apply` - Create or update infrastructure
+`terraform apply` - `tfa` - Create or update infrastructure
 
 ### Terraform destroy
 
-`terraform destroy` - Destroy previously-created infrastructure
+`terraform destroy` - `tfd` - Destroy previously-created infrastructure
+
+### Terraform console
+
+`terraform console` - `tfc` - Open a web browser to the Terraform console
+
+### Terraform state
+
+`terraform state` - `tfs` - Show the state of your infrastructure
+
+### Terraform output
+
+`terraform output` - `tfo` - Show the outputs of your infrastructure
